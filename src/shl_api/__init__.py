@@ -1,0 +1,41 @@
+"""Swedish Hockey League (SHL) Python API library (shl_api alias)."""
+
+from shl import (
+    Article,
+    AsyncSHLClient,
+    Game,
+    GameDay,
+    GameForm,
+    SHLAPIError,
+    SHLClient,
+    SHLConnectionError,
+    SHLError,
+    SHLNotFoundError,
+    SHLTimeoutError,
+    SiteSettings,
+    StandingRow,
+    Standings,
+    Team,
+    TeamGameInfo,
+    __version__,
+)
+
+__all__ = [
+    "SHLClient",
+    "AsyncSHLClient",
+    "SHLError",
+    "SHLAPIError",
+    "SHLNotFoundError",
+    "SHLConnectionError",
+    "SHLTimeoutError",
+    "Team",
+    "TeamGameInfo",
+    "Game",
+    "GameDay",
+    "StandingRow",
+    "Standings",
+    "GameForm",
+    "Article",
+    "SiteSettings",
+    "__version__",
+]
